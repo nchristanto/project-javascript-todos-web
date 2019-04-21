@@ -1,0 +1,27 @@
+.body {
+    font-family: 'Slabo 27px', serif;
+}
+
+.container {
+    margin: 0px auto; 
+    width: 300px; 
+}
+
+.container h2 {
+    background-color: #1BA1F2; 
+    color: #fff;
+    padding-left: 15px; 
+    padding-bottom: 10px;
+    line-height: 40px
+}
+
+.container ul, .container li {
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+}
+
+.container li {
+    background-color: #262e4c;
+    color: #b1b2c9
+}

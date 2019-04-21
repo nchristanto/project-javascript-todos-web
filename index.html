@@ -4,18 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <title>Project Javascript Todo Web</title>
 </head>
 <body>
     <div class="container">
-        <h2>Simple To Do List</h2>
-        <form name="todo-list">
-            <input type="text" name="list-item"/>
-        </form>
-        <div id="button"><button>Add</button></div>
-        <ol></ol>
+        <h2>Simple To Do</h2>
 
+        <div class="todo-activities">
+            <ul>
+                <li><label><input type="checkbox"><i></i><span>Get groceries</span><a href="#">-</a></label></li>
+                <li><label><input type="checkbox"><i></i><span>Code javascript</span><a href="#">-</a></label></li>
+                <li><label><input type="checkbox"><i></i><span>Pick up sister</span><a href="#">-</a></label></li>
+
+            </ul>
+        </div>
+
+        <form name="todo-add">
+            <input id="add-new-todo" type="text" name="list-item" placeholder="input new todo"/>
+            <div id="button"><button>Add</button></div>
+        </form>
     </div>
     <script src="index.js"></script>
 </body>
